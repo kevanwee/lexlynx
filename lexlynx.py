@@ -22,7 +22,7 @@ def summarize_text(text,openai_key):
         response = client.chat.completions.create(
             model="gpt-4",
             messages=[ 
-                {"role": "system", "content": "Summarize the following Singapore case law, highlighting key legal issues, judgments, and precedent."},
+                {"role": "system", "content": "Summarize the following case law, highlighting key legal issues, judgments, and precedent."},
                 {"role": "user", "content": chunk}
             ],
             max_tokens= 4000
