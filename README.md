@@ -30,4 +30,4 @@ python lexlynx.py
 Input the PDF file name when prompted, the script will process the PDF, summarize the content, and output the summary of the case law.
 
 Note ⚠️:
-Make sure to replace "your_openai_key_here" with your actual OpenAI API key. 🔑
+Make sure to replace openai_key = "INPUT YOUR KEY HERE" with your actual OpenAI API key. 🔑
