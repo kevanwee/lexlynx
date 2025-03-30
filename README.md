@@ -2,6 +2,10 @@
 
 Lexlynx is an OpenAI wrapper designed to summarize case law. It uses the `fitz` library to read PDF files, OpenAI's API to generate summaries, and `tqdm` for a progress bar during processing. Lexlynx makes legal case summarization easy and efficient! 🚀
 
+<div align="center">
+  <img src="./readme/lexlynx.png"></img>
+</div>
+
 ## Features ✨
 - **PDF Text Extraction**: Extracts and summarizes case law from PDF files 📄.
 - **Chunking**: Breaks large PDFs into manageable chunks for processing 📊.
